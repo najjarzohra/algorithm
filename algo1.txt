@@ -37,3 +37,45 @@ BEGIN
     Write("The number of words in the sentence is ",nb_word);
     Write("he number of vowels in the sentence. is ",nb_vow);
 END
+******************************************************************
+algorithm permutation 
+var x,y,z,:=integer
+begin 
+write("give a value of x and y and z",x , y,z );
+read(x);
+read(y);
+read(z);
+x=y;
+y=z;
+z=x; 
+write("give the value of x  after permutation",x)
+write("give the value of y after permutation",y)
+write("give the value ofz after permutation",z)
+end
+************************************************************
+
+algorithm date
+var date:=integer;
+    jj,mm,aa:=integer;
+begin 
+write("write the date")
+date:=jj/mm/aa;
+read(date);
+end
+************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
